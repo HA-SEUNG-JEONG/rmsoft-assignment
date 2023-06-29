@@ -4,16 +4,12 @@ import ThirdGrid from "./components/ThirdGrid";
 import FourthGrid from "./components/FourthGrid";
 import CenteredComponent from "./components/CenteredComponent";
 import { GridStyle } from "./style/gridStyle";
+import { styled } from "styled-components";
 
 const App = () => {
   return (
     <>
-      <section
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}>
+      <Wrapper>
         <CenteredComponent />
         <GridStyle>
           <FirstGrid />
@@ -21,22 +17,23 @@ const App = () => {
         <GridStyle>
           <SecondGrid />
         </GridStyle>
-      </section>
-      <section
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-        }}>
+      </Wrapper>
+      <Wrapper>
         <GridStyle>
           <ThirdGrid />
         </GridStyle>
         <GridStyle>
           <FourthGrid />
         </GridStyle>
-      </section>
+      </Wrapper>
     </>
   );
 };
+
+const Wrapper = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
 
 export default App;
