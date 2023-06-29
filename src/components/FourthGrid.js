@@ -9,6 +9,7 @@ const FourthGrid = () => {
 };
 
 const StyledFourthGrid = styled.section`
+  border: 1px solid black;
   width: 300px;
   height: 300px;
   background-color: #fffe00;

@@ -14,6 +14,7 @@ const SecondGrid = () => {
 };
 
 const StyledSecondGrid = styled.section`
+  border: 2px solid black;
   width: 300px;
   height: 150px;
   display: flex;
@@ -28,10 +29,10 @@ const StyledSecondGrid = styled.section`
 `;
 
 const Content = styled.div`
+  border: 2px solid black;
   width: 150px;
   height: 150px;
   background-color: blue;
-  border: 1px solid black;
   position: relative;
   top: 50%;
 `;

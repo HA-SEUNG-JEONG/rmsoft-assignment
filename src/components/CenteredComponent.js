@@ -14,7 +14,7 @@ const CenteredComponent = () => {
 };
 
 const Container = styled.section`
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: #40fe00;
   width: 300px;
   height: 300px;
@@ -34,10 +34,10 @@ const ContentWrapper = styled.div`
 const InnerContainer = styled.div``;
 
 const Component1 = styled.div`
+  border: 2px solid black;
   width: 150px;
   height: 150px;
   background-color: red;
-  border: 1px solid black;
   display: flex;
   justify-content: center;
   position: relative;
@@ -46,10 +46,10 @@ const Component1 = styled.div`
 `;
 
 const Component2 = styled.div`
+  border: 2px solid black;
   width: 150px;
   height: 150px;
   background-color: white;
-  border: 1px solid black;
 `;
 
 export default CenteredComponent;

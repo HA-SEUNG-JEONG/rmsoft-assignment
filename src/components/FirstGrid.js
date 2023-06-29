@@ -16,7 +16,6 @@ const StyledFirstGrid = styled.section`
   height: 150px;
   background-color: #ffffff;
   display: grid;
-  font-size: 24px;
   &:nth-child(2),
   &:nth-child(3) {
     background-color: #f91aff;

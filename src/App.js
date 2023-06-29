@@ -6,6 +6,8 @@ import CenteredComponent from "./components/CenteredComponent";
 import { GridStyle } from "./style/gridStyle";
 import { styled } from "styled-components";
 
+import "./style/App.css";
+
 const App = () => {
   return (
     <>
