@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const SecondGrid = () => {
+const SecondSquare = () => {
   return (
     <>
       <section>
@@ -37,4 +37,4 @@ const Content = styled.div`
   top: 50%;
 `;
 
-export default SecondGrid;
+export default SecondSquare;

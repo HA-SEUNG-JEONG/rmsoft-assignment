@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const ThirdGrid = () => {
+const ThirdSquare = () => {
   return (
     <Wrapper>
       <Content></Content>
@@ -25,4 +25,4 @@ const Content = styled.div`
   z-index: 1;
 `;
 
-export default ThirdGrid;
+export default ThirdSquare;

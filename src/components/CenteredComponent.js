@@ -28,6 +28,7 @@ const ContentWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100%;
 `;
 
@@ -35,13 +36,13 @@ const InnerContainer = styled.div``;
 
 const Component1 = styled.div`
   border: 2px solid black;
-  width: 150px;
-  height: 150px;
+  width: 9.3rem;
+  height: 9.3rem;
   background-color: red;
   display: flex;
   justify-content: center;
   position: relative;
-  top: 75px;
+  top: 5rem;
   right: 50%;
 `;
 

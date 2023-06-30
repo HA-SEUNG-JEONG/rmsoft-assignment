@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const FirstGrid = () => {
+const FirstSquare = () => {
   return (
     <>
       {[...Array(4)].map((_, i) => (
@@ -22,4 +22,4 @@ const StyledFirstGrid = styled.section`
   }
 `;
 
-export default FirstGrid;
+export default FirstSquare;

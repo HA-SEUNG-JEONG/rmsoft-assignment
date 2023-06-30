@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const FourthGrid = () => {
+const FourthSquare = () => {
   return (
     <section>
       <StyledFourthGrid></StyledFourthGrid>
@@ -16,4 +16,4 @@ const StyledFourthGrid = styled.section`
   display: block;
 `;
 
-export default FourthGrid;
+export default FourthSquare;
