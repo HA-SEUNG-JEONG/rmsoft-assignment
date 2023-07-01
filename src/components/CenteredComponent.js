@@ -19,7 +19,7 @@ const Container = styled.section`
   width: 300px;
   height: 300px;
   position: absolute;
-  top: 32.5%;
+  top: 18.75rem;
   left: 50%;
   transform: translate(-50%, -50%);
 `;
